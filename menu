@@ -1,0 +1,17 @@
+puts "You are now learning how to use git and github"
+puts "1 - Create a person"
+puts "2 - Speek"
+puts "3 - Run"
+print "Opção : "
+opcao = gets.chomp
+
+case opcao
+when '1'
+  #creating person
+when '2'
+  #speek
+when '3'
+  #run
+else
+  puts "Desculpe, opção inválida"
+end
