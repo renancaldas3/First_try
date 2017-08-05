@@ -5,4 +5,12 @@ class Person
     @age = age
   end
   
+  def speek(name = Goku)
+    puts "Oi eu sou #{name}"
+  end
+  
+  def run
+    puts "#{@name} is running"
+  end
+  
 end
